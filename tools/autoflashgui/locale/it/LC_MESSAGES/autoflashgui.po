@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: autoflashgui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-27 10:51+0100\n"
+"PO-Revision-Date: 2018-12-28 13:06+0100\n"
+"Last-Translator: bovirus <bovirus@gmail.com>\n"
+"Language-Team: bovirus@gmail.com\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Reading config..."
+msgstr "lettura configurazione..."
+
+msgid "Line: "
+msgstr "Linea: "
+
+msgid "Load Default:"
+msgstr "Profilo modem"
+
+msgid "Target IP:"
+msgstr "IP dispositivo:"
+
+msgid "Username:"
+msgstr "Nome utente:"
+
+msgid "Password:"
+msgstr "Password:"
+
+msgid "Firmware File Name:"
+msgstr "File firmware:"
+
+msgid "Browse for Firmware File"
+msgstr "Seleziona file firmware"
+
+msgid "Flash firmware?"
+msgstr "Flash del firmware?"
+
+msgid "I really truly know what I'm doing and I want to mess with the commands to tweak the firmware and I promise not to ask for help. :)  I understand that if the unsplit (if selected) or split command is too long (suspected limit of about 245 on TG799) or if I use special characters it may fail.  Avoid using & or ; (except splitting commands, unless escaped as a character code?)."
+msgstr "So cosa sto facendo e voglio inviare i comandi per modificare il firmware e prometto di non chiedere aiuto. Capisco che il comando unsplit (se selezionato) o split è troppo lungo (il limite è di circa 245 nel TG799) o si usano caratteri speciali potrebbe fallire. Eviterò l'uso di & o ; (eccetto la divisione dei comandi - a meno di errori)."
+
+msgid "Command:"
+msgstr "Comando:"
+
+msgid "Execution Method:"
+msgstr "Modo esecuzione:"
+
+msgid "DDNS Service:"
+msgstr "Servizio DDNS:"
+
+msgid "Split the given command on semicolons to try and use shorter commands with a 5 second delay between commands.  If an individual command fails it should not affect subsequent commands."
+msgstr "Dividi il comando con punto e virgola per provare a usare i comandi più brevi con un ritardo di 5 secondi tra i comandi. Se un singolo comando fallisce, non dovrebbe influenzare i comandi successivi."
+
+msgid "Run"
+msgstr "Esegui"
+
+msgid "Status:"
+msgstr "Stato:"
+
+msgid "Check the console window for detailed status or major failures (exceptions - try re-running a few times)"
+msgstr "Controlla la finestra della console per i dettagli dello stato o gli errori (eccezioni - prova a ri-lanciare varie volte)"
+
+msgid "Selected new variant "
+msgstr "Seleziona nuovo profilo "
+
+msgid "Please select firmware"
+msgstr "Seleziona il firmware"
+
+msgid "RBI files"
+msgstr "File RBI"
+
+msgid "Overall "
+msgstr "Totale caratteri: "
+
+msgid ", split maximum "
+msgstr " - caratteri max per linea: "
+
+msgid "Check the console window for detailed status or major failures"
+msgstr "Controlla finestra della console per i dettagli e gli errori"
+
+msgid "Firmware flashing enabled but firmware file name does not exist!"
+msgstr "Flash firmware abilitato ma il file del firmware non esiste!"
+
+msgid "Technicolor modem flash/unlock utility (v. "
+msgstr "Modem Technicolor - Utility flash/sblocco (v. "
+
+msgid ") - By Mark Smith"
+msgstr ") - Di Mark Smith"
+
+msgid "UI language = "
+msgstr "Lingua interfaccia = "
+
+msgid "A value "
+msgstr "Un valore "
+
+msgid "Challenge received: "
+msgstr "Challenge ricevuta: "
+
+msgid "M value "
+msgstr "Valore M "
+
+msgid "Unable to authenticate (check password?), message:"
+msgstr "Autebticazione fallita (verifica la password). Messaggio:"
+
+msgid "Unable to authenticate"
+msgstr "Autebticazione fallita"
+
+msgid "Authentication failed, debug values are: "
+msgstr "Autentificazioen fallita. I valori debug sono: "
+
+msgid "Exception: "
+msgstr "Eccezione: "
+
+msgid "Unknown method "
+msgstr "Metodo sconosciuto "
+
+msgid " please check input in GUI"
+msgstr " controlla i valori inseriti nella GUI"
+
+msgid "Authenticating"
+msgstr "Autentificazione"
+
+msgid "Sending flash command to modem"
+msgstr "Invio comando flash al modem"
+
+msgid "Modem reports flashing commenced successfully"
+msgstr "Il modem ha riportato il completamento dell'operazione di flash"
+
+#, python-format
+msgid "Waiting for reboot... Sleeping for %s s"
+msgstr "Attesa riavvio modem... Sleep per %s s"
+
+#, python-format
+msgid "Connect attempt %i"
+msgstr "Tentativo connessione %i"
+
+#, python-format
+msgid "Failed to connect, attempt %i.  Retrying"
+msgstr "Connessione fallita, tentativo %i.  Riprovo"
+
+msgid "Modem up"
+msgstr "Modem attivo"
+
+msgid "Splitting command up using semicolons"
+msgstr "Dividi comandi con punto e virgola"
+
+msgid "Sleeping..."
+msgstr "Sleep..."
+
+msgid "Please try a ssh connection now to "
+msgstr "Prova ora una connessione SSH verso "
+
+msgid " with username root and password root (change password immediately with passwd!)  Rebooting your modem now is recommended to stop any services that have been disabled."
+msgstr " con utente root e password root (cambia immediatamente la password con passwd!). Ora ti consiglio di riavviare il modem per interrompere tutti i servizi che sono stati disabilitati."
+
+msgid "Both n_hex and g_hex are required when ng_type = NG_CUSTOM"
+msgstr "Sono richiesti entrambi n_hex e g_hex qiando ng_type = NG_CUSTOM"
+
+msgid "32 bytes required for bytes_a"
+msgstr "sono richiesti 32byte per bytes_a"

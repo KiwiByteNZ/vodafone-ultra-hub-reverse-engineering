@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-16 07:58+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Reading config..."
+msgstr ""
+
+msgid "Line: "
+msgstr ""
+
+msgid "Load Default:"
+msgstr ""
+
+msgid "Target IP:"
+msgstr ""
+
+msgid "Username:"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Firmware File Name:"
+msgstr ""
+
+msgid "Browse for Firmware File"
+msgstr ""
+
+msgid "Flash firmware?"
+msgstr ""
+
+msgid "I really truly know what I'm doing and I want to mess with the commands to tweak the firmware and I promise not to ask for help. :)  I understand that if the unsplit (if selected) or split command is too long (suspected limit of about 245 on TG799) or if I use special characters it may fail.  Avoid using & or ; (except splitting commands, unless escaped as a character code?)."
+msgstr ""
+
+msgid "Command:"
+msgstr ""
+
+msgid "Execution Method:"
+msgstr ""
+
+msgid "DDNS Service:"
+msgstr ""
+
+msgid "Split the given command on semicolons to try and use shorter commands with a 5 second delay between commands.  If an individual command fails it should not affect subsequent commands."
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "Check the console window for detailed status or major failures (exceptions - try re-running a few times)"
+msgstr ""
+
+msgid "Selected new variant "
+msgstr ""
+
+msgid "Please select firmware"
+msgstr ""
+
+msgid "RBI files"
+msgstr ""
+
+msgid "Overall "
+msgstr ""
+
+msgid ", split maximum "
+msgstr ""
+
+msgid "Check the console window for detailed status or major failures"
+msgstr ""
+
+msgid "Firmware flashing enabled but firmware file name does not exist!"
+msgstr ""
+
+msgid "Technicolor modem flash/unlock utility (v. "
+msgstr ""
+
+msgid ") - By Mark Smith"
+msgstr ""
+
+msgid "UI language = "
+msgstr ""
+
+msgid "A value "
+msgstr ""
+
+msgid "Challenge received: "
+msgstr ""
+
+msgid "M value "
+msgstr ""
+
+msgid "Unable to authenticate (check password?), message:"
+msgstr ""
+
+msgid "Unable to authenticate"
+msgstr ""
+
+msgid "Authentication failed, debug values are: "
+msgstr ""
+
+msgid "Exception: "
+msgstr ""
+
+msgid "Unknown method "
+msgstr ""
+
+msgid " please check input in GUI"
+msgstr ""
+
+msgid "Authenticating"
+msgstr ""
+
+msgid "Sending flash command to modem"
+msgstr ""
+
+msgid "Modem reports flashing commenced successfully"
+msgstr ""
+
+#, python-format
+msgid "Waiting for reboot... Sleeping for %s s"
+msgstr ""
+
+#, python-format
+msgid "Connect attempt %i"
+msgstr ""
+
+#, python-format
+msgid "Failed to connect, attempt %i.  Retrying"
+msgstr ""
+
+msgid "Modem up"
+msgstr ""
+
+msgid "Splitting command up using semicolons"
+msgstr ""
+
+msgid "Sleeping..."
+msgstr ""
+
+msgid "Please try a ssh connection now to "
+msgstr ""
+
+msgid " with username root and password root (change password immediately with passwd!)  Rebooting your modem now is recommended to stop any services that have been disabled."
+msgstr ""
+
+msgid "Both n_hex and g_hex are required when ng_type = NG_CUSTOM"
+msgstr ""
+
+msgid "32 bytes required for bytes_a"
+msgstr ""

@@ -1,0 +1,162 @@
+ultrahub-http-audit/www/docroot/no-internet-connection-ftth.lp:10:local getargs = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/no-internet-connection-ftth.lp:71:if ngx.req.get_uri_args().action == "connect" and vodafone.variant == "NZ" then
+ultrahub-http-audit/www/docroot/home.lp:93:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/home.lp:96:    proxy.set(string.format("uci.web.user.@usr_%s.language",loginrole), ngx.req.get_post_args().language)
+ultrahub-http-audit/www/docroot/home.lp:103:if ngx.var.request_method == "GET" and ngx.req.get_uri_args().getSessionStatus == "true" then
+ultrahub-http-audit/www/docroot/home.lp:115:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/no-internet-connection-adsl.lp:10:local getargs = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/no-internet-connection-adsl.lp:71:if ngx.req.get_uri_args().action == "connect" and vodafone.variant == "NZ" then
+ultrahub-http-audit/www/docroot/intercept.lp:5:local getargs = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/login.lp:13:local getArgs = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/login.lp:34:if ngx.var.request_method == "GET" and ngx.req.get_uri_args().assistantState == "false" then
+ultrahub-http-audit/www/docroot/modals/status-support/natMappingTable.lp:19:if ngx.var.request_method == "GET" and ngx.req.get_uri_args().natMapping == "NAT" then
+ultrahub-http-audit/www/docroot/modals/status-support/natMappingTable.lp:71:  if ngx.req.get_post_args().action == "downloadipv4nat" then
+ultrahub-http-audit/www/docroot/modals/status-support/natMappingTable.lp:76:  elseif ngx.req.get_post_args().action == "downloadipv6nat" then
+ultrahub-http-audit/www/docroot/modals/overview.lp:17:if ngx.var.request_method == "POST" and ngx.req.get_post_args().action == "edit-devices" then
+ultrahub-http-audit/www/docroot/modals/overview.lp:29:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/overview.lp:151:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().dslstatus == "true" then
+ultrahub-http-audit/www/docroot/modals/status-support/lanStatus.lp:26:if ngx.var.request_method == "POST" and ngx.req.get_post_args().reset then
+ultrahub-http-audit/www/docroot/modals/settings/printerSharing.lp:42:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/status-support/mobileStatus.lp:98:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().action == "mobileStatus" then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:123:  if ngx.req.get_post_args().ddnsStatus == "1" then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:124:    if not (ddnsData["password"] ~= "" and ngx.req.get_post_args().ddnsPswrd == "") or (ddnsData["userName"] ~=ngx.req.get_post_args().ddnsUsrname) then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:125:      success = validateStringLength(ngx.req.get_post_args().ddnsPswrd)
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:128:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:133:    if ngx.req.get_post_args().securedns then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:135:      setTable[format("uci.firewall.redirect.%s.enabled",index)] = ngx.req.get_post_args().securedns
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:138:    if ngx.req.get_post_args().manualdns == "1" then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:144:          setTable[format("uci.network.interface.@%s.dns.@%s.value",dataInterface[i],index)] = ngx.req.get_post_args().primarydns
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:145:          if ngx.req.get_post_args().secondarydns ~= "" then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:147:            setTable[format("uci.network.interface.@%s.dns.@%s.value",dataInterface[i],index)] = ngx.req.get_post_args().secondarydns
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:160:    if ngx.req.get_post_args().ddnsStatus == "1" then
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:161:      local passwd = ngx.req.get_post_args().ddnsPswrd == "" and ddnsData["password"] or ngx.req.get_post_args().ddnsPswrd
+ultrahub-http-audit/www/docroot/modals/internet/dns_ddns.lp:163:      setTable["uci.ddns.service.@myddns_ipv4.lookup_host"] = ngx.req.get_post_args().ddnsDomain
+ultrahub-http-audit/www/docroot/modals/settings/bridge.lp:36:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/bridge.lp:37:  if ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/status-support/portMirroring.lp:53:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "start" then
+ultrahub-http-audit/www/docroot/modals/status-support/portMirroring.lp:55:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/status-support/portMirroring.lp:76:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "stop" then
+ultrahub-http-audit/www/docroot/modals/settings/samba.lp:59:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/status-support/wanStatus.lp:63:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/internet/portMapping.lp:337:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:59:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().action == "tracing" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:133:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().action == "diagnose" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:184:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().action == "gettraceresult" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:213:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().action == "getPingStatus" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:246:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:275:if ngx.req.get_method() == "POST"  and (ngx.req.get_post_args().action == "Tracestart" or ngx.req.get_post_args().action == "Tracestop") then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:276:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:280:  if ngx.req.get_post_args().action == "Tracestart" and next(traceState) and traceState[1].value ~= "Requested" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:283:  if ngx.req.get_post_args().action == "Tracestop" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:299:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "downloadPingResult" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:313:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "getPingResult" then
+ultrahub-http-audit/www/docroot/modals/status-support/diagnosticUtility.lp:314:  local host = ngx.req.get_post_args().host
+ultrahub-http-audit/www/docroot/modals/status-support/voipDiagnostic.lp:33:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().diagonisticStatus == "completed" then
+ultrahub-http-audit/www/docroot/modals/status-support/voipDiagnostic.lp:76:elseif ngx.req.get_uri_args().action == "getDiagTestStatus" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:235:  if ngx.req.get_uri_args().action == "import_config" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:238:  if ngx.req.get_post_args() then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:239:    if ngx.req.get_post_args().action == "ConfigSave" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:240:      local pass_save = ngx.req.get_post_args().savehash
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:243:    elseif ngx.req.get_post_args().action == "ConfigLoad" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:244:      local pass_load = ngx.req.get_post_args().loadhash
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:247:    elseif ngx.req.get_post_args().action == "exportConfig" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:249:    elseif ngx.req.get_post_args().action == "system_reset" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:251:    elseif ngx.req.get_post_args().action == "system_restart" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:254:    elseif ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:255:      saveUPnP(ngx.req.get_post_args().upnp)
+ultrahub-http-audit/www/docroot/modals/settings/configuration.lp:263:  if ngx.req.get_uri_args().getstatus == "true" then
+ultrahub-http-audit/www/docroot/modals/status-support/vdslStatus.lp:15:if ngx.var.request_method == "POST" and ngx.req.get_post_args().reset then
+ultrahub-http-audit/www/docroot/modals/status-support/vdslStatus.lp:227:local getargs = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:127:  if ngx.req.get_post_args().reset then
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:151:if ngx.req.get_method() ~= "POST" or ngx.req.get_post_args().enable then
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:211:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:212:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:282:        isNewSimPinValid, pinErrMsg = pinValidation(ngx.req.get_post_args().newsimpin)
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:294:      isNewPinValid, pinErrMsg = pinValidation(ngx.req.get_post_args().newpin)
+ultrahub-http-audit/www/docroot/modals/internet/mobile.lp:300:      isPukValid ,pukErrMsg = pinValidation(ngx.req.get_post_args().puk, true)
+ultrahub-http-audit/www/docroot/modals/status-support/restart.lp:24:  if ngx.req.get_uri_args().getstatus == "true" then
+ultrahub-http-audit/www/docroot/modals/status-support/restart.lp:29:  if ngx.req.get_uri_args().getInterfaceValues == "true" then
+ultrahub-http-audit/www/docroot/modals/status-support/restart.lp:45:  if ngx.req.get_post_args().reset_dsl == "1" and (wanStatus == "ADSL" or wanStatus == "VDSL" or wanStatus == "GFAST") then
+ultrahub-http-audit/www/docroot/modals/status-support/restart.lp:47:  elseif ngx.req.get_post_args().reset_ethwan == "1" and wanStatus == "ETH" then
+ultrahub-http-audit/www/docroot/modals/status-support/restart.lp:49:  elseif ngx.req.get_post_args().system_reboot == "GUI" then
+ultrahub-http-audit/www/docroot/modals/settings/policyRouting.lp:394:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/internet/dos.lp:42:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/internet/dos.lp:44:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/status-support/eventLog.lp:62:    local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/pppoa.lp:46:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/internet/parentalControl.lp:126:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/tvSettings.lp:224:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/general.lp:170:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/wifi/general.lp:171:  local passwordUpdate24 = ngx.req.get_post_args().password24
+ultrahub-http-audit/www/docroot/modals/wifi/general.lp:172:  local passwordUpdate5 = ngx.req.get_post_args().password5
+ultrahub-http-audit/www/docroot/modals/wifi/general.lp:190:        if((ngx.req.get_post_args().securityMode24 ~= "none")) then
+ultrahub-http-audit/www/docroot/modals/wifi/general.lp:195:        if((ngx.req.get_post_args().securityMode5 ~= "none")) then
+ultrahub-http-audit/www/docroot/modals/settings/contentSharing.lp:23:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:118:local filename = untaint(ngx.req.get_uri_args().name)
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:139:  if ngx.req.get_uri_args().action == "import_config" then
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:151:      informState           = ngx.req.get_post_args().informState,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:152:      informInterval        = ngx.req.get_post_args().informInterval,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:153:      acsUserName           = ngx.req.get_post_args().acsUserName,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:154:      connectionReqUserName = ngx.req.get_post_args().connectionReqUserName,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:155:      connectionReqAuth     = ngx.req.get_post_args().connectionReqAuth,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:174:        informState = ngx.req.get_post_args().informState,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:175:        informInterval = ngx.req.get_post_args().informInterval,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:176:        acsUserName  = ngx.req.get_post_args().acsUserName,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:177:        connectionReqUserName = ngx.req.get_post_args().connectionReqUserName,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:178:        connectionReqAuth = ngx.req.get_post_args().connectionReqAuth,
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:186:    if not (acsData["acsPassword"] ~= "" and ngx.req.get_post_args().acsPassword == "") or (acsData["acsUserName"] ~= ngx.req.get_post_args().acsUserName) then
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:187:      success1 = isStringLengthValid(ngx.req.get_post_args().acsPassword)
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:189:    if not (acsData["connectionReqPassword"] ~= "" and ngx.req.get_post_args().connectionReqPassword == "") or (acsData["connectionReqUserName"] ~= ngx.req.get_post_args().connectionReqUserName) then
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:190:      success2 = isStringLengthValid(ngx.req.get_post_args().connectionReqPassword)
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:192:    local success3 = gAV(validateServer,validateUrlLength)(ngx.req.get_post_args().acsUrl)
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:194:      local acspasswd = ngx.req.get_post_args().acsPassword == "" and acsData["acsPassword"] or ngx.req.get_post_args().acsPassword
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:195:      local cnctreqpasswd = ngx.req.get_post_args().connectionReqPassword == "" and acsData["connectionReqPassword"] or ngx.req.get_post_args().connectionReqPassword
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:196:      local acsUrl = ngx.req.get_post_args().acsUrl
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:200:      if (ngx.req.get_post_args().acsPassword ~= "") then
+ultrahub-http-audit/www/docroot/modals/settings/tr069.lp:203:      if (ngx.req.get_post_args().connectionReqPassword ~= "") then
+ultrahub-http-audit/www/docroot/modals/wifi/powerSaving.lp:418:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/macFilter.lp:122:  if ngx.req.get_post_args().action == "Reset" then
+ultrahub-http-audit/www/docroot/modals/wifi/macFilter.lp:134:  postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/macFilter.lp:231:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/wifi/macFilter.lp:235:    local macControlMode24 = ngx.req.get_post_args().aclMode24
+ultrahub-http-audit/www/docroot/modals/settings/assistance.lp:14:  local content = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/settings.lp:157:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/wifi/settings.lp:159:  if ngx.req.get_post_args().wifiLowEncryption == "tkipaes" then
+ultrahub-http-audit/www/docroot/modals/wifi/settings.lp:165:  elseif  ngx.req.get_post_args().wifiLowEncryption == "aes" then
+ultrahub-http-audit/www/docroot/modals/settings/accessControl.lp:81:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/clientMonitoring.lp:94:local args = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/modals/settings/qos.lp:366:    local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/bandSteer.lp:16:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/wifi/bandSteer.lp:17:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/vf_wifi_network.lp:95:    local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/firmwareUpdate.lp:103:    if ngx.req.get_uri_args().action == "upgradefw" then
+ultrahub-http-audit/www/docroot/modals/settings/firmwareUpdate.lp:112:  if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().getstatus == "true" then
+ultrahub-http-audit/www/docroot/modals/settings/staticRouting.lp:192:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/wifi/wps.lp:47:if ngx.req.get_method() == "GET" and ngx.req.get_uri_args().wpsstatus == "true" then
+ultrahub-http-audit/www/docroot/modals/wifi/wps.lp:61:  if ngx.req.get_post_args().startwps == "1" then
+ultrahub-http-audit/www/docroot/modals/wifi/wps.lp:74:  if ngx.req.get_post_args().stopwps == "1" then
+ultrahub-http-audit/www/docroot/modals/wifi/analyser.lp:9:local getargs = ngx.req.get_uri_args()
+ultrahub-http-audit/www/docroot/modals/wifi/analyser.lp:40:if ngx.req.get_method() == "POST" and  ngx.req.get_post_args().action =="rescan" then
+ultrahub-http-audit/www/docroot/modals/wifi/analyser.lp:41:  local cradio = ngx.req.get_post_args().curradio
+ultrahub-http-audit/www/docroot/modals/settings/password.lp:51:  local postcontent = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/usb.lp:33:      local postcontent = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/phone/numbers.lp:15:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/ipv6Configuration.lp:28:if ngx.req.get_method() ~= "POST" or session:retrieve("ipv6Enb") ~=  ngx.req.get_post_args().ipv6Status  then
+ultrahub-http-audit/www/docroot/modals/settings/ipv6Configuration.lp:124:    local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/internetTime.lp:86:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/dlna.lp:46:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/phone/ringingSchedule.lp:441:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/wan.lp:255:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:55:  if ngx.req.get_uri_args().getstatus == "true" then
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:396:       setTable[format("uci.firewall.redirect.%s.dest_ip",index)] = postArgs["IPAddress"]
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:502:      validateIPAdd = isIPv4(postArgs["IPAddress"], postArgs["localdevmask"])
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:570:        validateIPAdd = isIPv4(postArgs["IPAddress"], postArgs["localdevmask"])
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:629:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:640:  if postArgs["isIPChanged"] == "1" then  ngx.print('\
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:692:            window.location = location.protocol+"//');  ngx.print(postArgs["IPAddress"]); ngx.print('";}, 10000);\
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:701:          getStatus(location.protocol+"//');  ngx.print(postArgs["IPAddress"]); ngx.print('/login.lp?rb=1")}, 20000);\
+ultrahub-http-audit/www/docroot/modals/settings/lan.lp:740:  ');  elseif  postArgs["isIPChanged"] ~= "1" and  not errorFlag and not next(ipv4Errmsg) and dnsSuccess then
+ultrahub-http-audit/www/docroot/modals/phone/callLog.lp:15:  local postargs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/phone/callSettings.lp:19:  local postArgs = ngx.req.get_post_args()
+ultrahub-http-audit/www/docroot/modals/phone/settings.lp:338:if ngx.req.get_method() == "POST" and ngx.req.get_post_args().action == "SAVE" then
+ultrahub-http-audit/www/docroot/modals/phone/settings.lp:343:  local postargs = ngx.req.get_post_args()
